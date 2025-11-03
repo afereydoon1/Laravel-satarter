@@ -1,0 +1,33 @@
+{
+    "deploy": {
+        "📁 docker": {
+            "📁 app": {
+                "📁 tmpls": {
+                    "📄 cron.tmpl": "",
+                    "📄 php-fpm.conf.tmpl": "",
+                    "📄 www.conf.tmpl": ""
+                },
+                "🐋 Dockerfile": "",
+                "📄 entrypoint.sh": ""
+            },
+            "📁 config": {
+                "📁 php": {
+                    "📄 php.ini.template": ""
+                }
+            },
+            "📁 postgres": {
+                "📁 initdb.d": {
+                    "📄 01_init.sql": ""
+                }
+            },
+            "📁 nginx": {
+                "📁 templates": {
+                    "📄 default.conf.template": ""
+                },
+                "🐋 Dockerfile": "",
+                "📄 healthcheck.sh": ""
+            }
+        },
+        "📄 docker-compose.yml": ""
+    }
+}
