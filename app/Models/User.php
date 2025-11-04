@@ -59,9 +59,10 @@ class User extends Authenticatable
     public function getRedirectAfterLogin(): string
     {
         return match ($this->user_type) {
-            1 => '/admin-dashboard',
-            // 2 => '/agent-dashboard',
-            default => '/',
+            1 => '/admin-dashboard',  // If user_type === 1 (user is admin)
+            // 2 => '/agent-dashboard', // If user_type === 2 (user is agent for example)
+            // You can simply add more user types here if needed (e.g., 3 => '/manager-dashboard')
+            default => '/', // If user_type === 0 (user is default user)
         };
     }
 
