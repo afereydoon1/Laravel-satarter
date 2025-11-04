@@ -12,6 +12,7 @@
                     </a>
                 </li>
 
+                @role('super-admin')
                 <li class="has-child">
                     <a href="#" class="">
                         <span data-feather="users" class="nav-icon"></span>
@@ -34,6 +35,7 @@
 
                     </ul>
                 </li>
+                @endrole
 
                 <form method="POST" action="{{ route('logout') }}" >
                     @csrf
