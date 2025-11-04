@@ -71,7 +71,7 @@ If you are using **pgAdmin**, you can add the following configuration to connect
 
 ---
 
-## 🧰 Available Make Commands
+## Available Make Commands
 
 | Command | Description |
 |----------|-------------|
@@ -88,7 +88,7 @@ If you are using **pgAdmin**, you can add the following configuration to connect
 
 - Make sure Docker and Docker Compose are installed on your system.
 - Default database credentials can be modified in `.env` file and `docker-compose.yml`.
-- To access the Laravel app, visit: [http://localhost:8000](http://localhost:8000)
+- To access the Laravel app, visit: [http://localhost:{port}](http://localhost:{port})
 
 ---
 
