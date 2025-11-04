@@ -18,7 +18,7 @@ class RoleSeeder extends Seeder
         ]);
 
         Role::firstOrCreate([
-            'name' => 'author-admin',
+            'name' => 'author',
         ]);
     }
 }

@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
     {
 
         $user1 = User::firstOrCreate([
-            'name' => 'super-admin',
+            'name' => 'admin',
             'email'=>'admin@gmail.com',
             'phone'=>'09394106178',
             'user_type'=>'1',
@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
         ]);
 
        $user2 = User::firstOrCreate([
-            'name' => 'author',
+            'name' => 'admin2',
             'email'=>'admin2@gmail.com',
             'phone'=>null,
             'user_type'=>'1',
